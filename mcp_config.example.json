@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "google-maps-official": {
+      "url": "https://mapstools.googleapis.com/mcp",
+      "headers": {
+        "X-Goog-Api-Key": "YOUR_GOOGLE_MAPS_API_KEY"
+      }
+    },
+    "fetch-layer": {
+      "command": "uvx",
+      "args": ["mcp-server-fetch"]
+    }
+  }
+}
